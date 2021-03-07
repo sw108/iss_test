@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">SecureStrap</string>
+    <string name="welcome_message">Welcome to Secure Strap</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="device_name">Device Name:</string>
+    <string name="mac">MAC: </string>
+    <string name="alarm_setting">Alarm Notification Setting:</string>
+
+
+    <string name="bga_pp_take_picture">Taking photo</string>
+    <string name="bga_pp_not_support_take_photo">The current device does not support taking pictures</string>
+    <string name="bga_pp_all_image">All pictures</string>
+    <string name="bga_pp_confirm">OK</string>
+    <string name="bga_pp_choose">Select</string>
+
+    <!-- Calibration Procedure. -->
+    <string name="step1">Step 1</string>
+    <string name="step2">Step 2</string>
+    <string name="step3">Step 3</string>
+    <string name="step4">Step 4</string>
+
+    <string-array name="step1">
+        <item><![CDATA[Make sure there is no strap attached to the device and no tension is being applied. <br />
+        Check if current tension is close to zero (mostly is 0-50 lbs). If true, skip this step.
+        If not, click <font color=\'#26a9e1\'><b>Calibrate Offset</b></font> button below to zeroize current tension.]]></item>
+    </string-array>
+
+    <string-array name="step2">
+        <item>Click <![CDATA[<font color=\'#26a9e1\'><b>Read Register Value</b></font>]]> button to check reference tension.
+            Use a crane scale and strap to apply a <![CDATA[<b>stable</b>]]> tension to the device.</item>
+    </string-array>
+
+    <string-array name="step3">
+        <item><![CDATA[Type in the crane scale reading tension value below, and click <font color=\'#26a9e1\'><b>Update</b></font> button
+        to update reference tension. <br /> Go back to Step 2, and click button to check current reference tension.]]></item>
+    </string-array>
+
+    <string-array name="step4">
+        <item>Check if the current tension is close to (within +/-100 lbs) the reference tension right now. If true, calibration is done.
+            If not, click <![CDATA[<font color=\'#26a9e1\'><b>Calibrate Reference</b></font>]]> button below.</item>
+    </string-array>
+
+    <!-- Help information details. -->
+    <string name="info1">Important Note</string>
+    <string name="info2">Version</string>
+    <string name="info3">Contact Us</string>
+    <string name="info4">Privacy Policy</string>
+
+    <string-array name="info1">
+        <item>To perform calibration, please connect to the target device first. Before connection,
+            make sure the applied tension value is <![CDATA[<b>below 255</b>]]> lbs or no tension is being applied on the target device.</item>
+    </string-array>
+
+    <string-array name="info2">
+        <item>Current version: 1.0</item>
+    </string-array>
+
+    <string-array name="info3">
+        <item>support@apexinnovations.ca</item>
+    </string-array>
+
+    <string-array name="info4">
+        <item>https://isecurestrap.com/</item>
+    </string-array>
+
+</resources>

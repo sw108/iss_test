@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#1b92c5</color>
+    <color name="colorPrimary">#26a9e1</color>
+    <color name="colorAccentLight">#4D26a9e1</color>
+    <color name="scrollbar">#7f8085</color>
+    <color name="navHighlight">#DCECFE</color>
+    <color name="whiteTxt">#ffffff</color>
+    <color name="successGreen">#4bb543</color>
+    <color name="outlineColor">#c0d6f7</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorSecondary">#F9AA33</color>
+    <color name="warning">#EC2903</color>
+</resources>

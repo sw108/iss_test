@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/steps_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/calibration_offset_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Calibrate Offset"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/small_button_style"
+        android:textColor="@color/whiteTxt"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/read_register_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Read Register Value"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/small_button_style"
+        android:textColor="@color/whiteTxt"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/update_register_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/scale_tension"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:cursorVisible="true"
+            android:editable="false"
+            android:gravity="center"
+            android:hint="scale tension"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/calibration_update_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textSize="16sp"
+            android:textColor="@color/whiteTxt"
+            android:textAllCaps="false"
+            android:background="@drawable/small_button_style" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calibration_reference_btn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Calibrate Reference"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/small_button_style"
+        android:textColor="@color/whiteTxt"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

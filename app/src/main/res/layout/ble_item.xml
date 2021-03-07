@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/trailer_device_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strap 1"
+                android:textSize="20dp"
+                android:gravity="left" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/trailer_device_mac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="EF:EB:81:61:B6:FF"
+                    android:textSize="20dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/trailer_radio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/trailer_device_mac"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:buttonTint="@color/colorPrimary"
+                    android:checked="false">
+                </RadioButton>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
